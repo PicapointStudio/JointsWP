@@ -62,7 +62,7 @@ add_action('wp_dashboard_setup', 'joints_custom_dashboard_widgets');
 /************* CUSTOMIZE ADMIN *******************/
 // Custom Backend Footer
 function joints_custom_admin_footer() {
-	_e('<span id="footer-thankyou">Developed by <a href="#" target="_blank">Your Site Name</a></span>.', 'jointswp');
+	_e('<span id="footer-thankyou">Developed by <a href="https://picapoint.no" target="_blank">Picapoint</a></span>.', 'jointswp');
 }
 
 // adding it to the admin area
